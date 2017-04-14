@@ -1,0 +1,380 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: "苹方","微软雅黑","Helvetica";
+}
+div{
+	display: block;
+}
+header{
+	width: 100%;
+    height: 0.89rem;
+    background-color: #007be3;
+    top: 0;
+    position: fixed;
+    z-index: 66;
+}
+header ul{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+header ul>li{
+	width: 20%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+header ul>li>a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 0.32rem;
+    line-height: 1rem;
+    text-align: center;
+}
+header ul>li>span{
+	display: block;
+    width: 100%;
+    height: 0.06rem;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.banner{
+	width: 100%;
+	height: 4.31rem;
+	background: url(../img/banner_02.png) center center no-repeat;
+	background-size: cover;
+}
+.tea_content{
+	width: 100%;
+    padding: 0.1rem 0.24rem 0;
+    background-color: #F5F6FA;
+}
+.tea_content .mulu{
+	height: 0.62rem;
+    line-height: 0.62rem;
+    width: 100%;
+}
+.tea_content .mulu a:first-child{
+	margin-left: 0;
+}
+.tea_content .mulu a{
+	color: #494747;
+    font-size: 0.22rem;
+    line-height: 0.7rem;
+    float: left;
+    margin: 0 0.14rem;
+    font-weight: bold;
+}
+.tea_content .mulu span{
+	float: left;
+    width: 0.16rem;
+    height: 0.2rem;
+    margin-top: 0.26rem;
+    font-size: 0.22rem;
+    text-align: center;
+    color: #494747;
+    background-size: 100%;
+    background: url(../img/jiantou.png) center center no-repeat;
+    overflow: hidden;
+}
+.tea_content .web{
+	width: 100%;
+    padding: 0.1rem 0.24rem 0;
+    margin-top: 0.2rem;
+    background-color: white;
+}
+.tea_content .web .tab{
+	width: 100%;
+    height: 0.8rem;
+    border: 1px solid #01b5ff;
+    border-radius: 0.07rem;
+    margin-bottom: 0.2rem;
+}
+.tea_content .web .tab a{
+	width: 33.33%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    position: relative;
+    color: black;
+}
+.tea_content .web .tab a.tab_active{
+	background-color: #01b5ff;
+    border-radius: 0.07rem;
+    color: #ffffff;
+}
+.tea_content .web .tab a.tab_active .caret{
+	position: absolute;
+	width: 0rem;
+	border-top: 0.15rem solid rgba(1,181,255,1);
+	border-left: 0.15rem solid rgba(1,181,255,0);
+	border-right: 0.15rem solid rgba(1,181,255,0);
+	left: 50%;
+	top: 0.79rem;
+}
+.web .tab_content{
+	width: 100%;
+	overflow: hidden;
+}
+.web .tab_content .tab_neirong{
+	width: 100%;
+	overflow: hidden;
+}
+.web .tab_content .tab_neirong ul li{
+	width: 100%;
+    height: auto;
+    padding: 0.2rem;
+    border-bottom: 1px solid #b8b8b8;
+    overflow: hidden;
+}
+.web .tab_content .tab_neirong ul li a .img{
+	width: 2.3rem;
+    height: 2.3rem;
+    margin-top: 0.15rem;
+    border-radius: 0.08rem;
+    overflow: hidden;
+    float: left;
+}
+.web .tab_content .tab_neirong ul li a .img img{
+	width: 100%;
+	height: 100%;
+}
+.web .tab_content .tab_neirong ul li .intro{
+	width: 3.6rem;
+    height: 100%;
+    float: right;
+    margin-top: 0.34rem;
+    overflow: hidden;
+}
+.web .tab_content .tab_neirong ul li .intro .part1{
+	width: 100%;
+    float: left;
+    text-align: left;
+}
+.web .tab_content .tab_neirong ul li .intro .part1 .name{
+	font-size: 0.26rem;
+    color: #111;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    width: 100%;
+    overflow: hidden;
+}
+.web .tab_content .tab_neirong ul li .intro .part1 .line{
+	border-bottom: 1px dashed #b8b8b8;
+    width: 3.6rem;
+    height: 0;
+    margin: 0.2rem 0;
+}
+.web .tab_content .tab_neirong ul li .intro .part1 .position{
+	font-size: 0.24rem;
+    color: #01b5ff;
+    width: 100%;
+    height: 0.26rem;
+    overflow: hidden;
+    line-height: 0.24rem;
+}
+.web .tab_content .tab_neirong ul li .intro p.part3{
+	width: 3.03rem;
+    height: 0.3rem;
+    color: #666666;
+    font-size: 0.24rem;
+    float: left;
+    margin-top: 0.2rem;
+    line-height: 0.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.web .tab_content .tab_neirong ul li .intro p.part2{
+	width: 1.5rem;
+    height: 0.24rem;
+    text-align: left;
+    line-height: 0.45rem;
+    background-color: #fff;
+    margin: 0.1rem auto;
+    color: #ff9300;
+    font-size: 0.24rem;
+    float: left;
+}
+.yema{
+	width: 100%;
+	height: auto;
+}
+.yema .tea_tiao{
+	width: 100%;
+    margin-top: 0.2rem;
+    height: 0.8rem;
+    padding-top: 0.15rem;
+}
+.tea_tiao a {
+    float: left;
+    padding: 0.1rem;
+    height: 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.3rem;
+    margin-right: 0.15rem;
+}
+.tea_tiao a:nth-child(1) {
+    margin-left: 0.28rem;
+    width: 0.5rem;
+    background: url(../img/s1.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_tiao a:nth-child(2) {
+    width: 1.48rem;
+    background: url(../img/s2.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_tiao a.a1{
+	border: 1px solid #666;
+    letter-spacing: 1px;
+    color: #666;
+    width: 1.4rem;
+}
+.tea_tiao a:nth-child(4) {
+    width: 1.48rem;
+    background: url(../img/s3.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_tiao a:nth-child(5) {
+    width: 0.5rem;
+    background: url(../img/s4.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_copyright{
+	width: 100%;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+}
+.tea_copyright p{
+	color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    padding-top: 0.18rem;
+}
+.tea_copyright p:last-child{
+	padding-top: 0.1rem;
+}
+.contactBox{
+	width: 100%;
+    height: 0.9rem;
+}
+.contact{
+	width: 100%;
+    height: 0.9rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0rem;
+    box-shadow: 0 0 0.08rem rgba(0,0,0,0.1);
+    z-index: 66;
+}
+.contact-list{
+	width: 100%;
+	height: 100%;
+	background: #e7e7e7;
+}
+.contact a{
+	width: 30%;
+	height: 0.8rem;
+	float: left;
+}
+.contact a div{
+	width: 100%;
+    height: 100%;
+    font-size: 0.24rem;
+    color: #000;
+    text-align: left;
+    line-height: 0.9rem;
+    background: #e7e7e7;
+}
+.contact a div i{
+	width: 0.32rem;
+    height: 0.32rem;
+    float: left;
+    line-height: 0.9rem;
+    margin-top: 0.28rem;
+    margin-left: 0.27rem;
+}
+.contact a div span{
+	float: left;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+}
+.contact a div.part1 i{
+	background: url(../img/qq.png) center center no-repeat;
+	background-size: 100%;
+}
+.contact .phone{
+	width: 40%;
+    height: 0.9rem;
+    position: relative;
+    z-index: 88;
+    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+    margin-top: -0.1rem;
+    position: relative;
+}
+.contact a div.part2{
+	background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 0.15rem #ff8d12;
+}
+.contact a div.part2 i{
+	width: 0.36rem;
+    height: 0.36rem;
+    background: url(../img/shouye6.png) -1.6rem -4.78rem no-repeat;
+    background-size: 2rem;
+    display: inline-block;
+    line-height: 0.9rem;
+    margin-left: 0.7rem;
+}
+.contact a div.part2 span{
+	float: left;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.contact a div.part3 i{
+	width: 0.36rem;
+    height: 0.36rem;
+	background: url(../img/shouye6.png) -1.6rem -5.3rem no-repeat;
+	background-size: 2rem;
+	display: inline-block;
+    line-height: 0.9rem;
+    margin-left: 0.42rem;
+}
+#LRMINIBAR{
+	position: absolute;
+    right: 1.73rem;
+    bottom: 0.48rem;
+    width: auto;
+    height: auto;
+    z-index: 100;
+}
+#LR-BTN{
+	display: block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 31px;
+    background: #00A6F1;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .16);
+    cursor: pointer;
+    text-decoration: none;
+}

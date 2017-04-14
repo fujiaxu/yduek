@@ -1,0 +1,198 @@
+{
+  "shouye.html": {
+    "resources": [
+      "css/comment.css",
+      "img/qq.png",
+      "img/shouye6.png",
+      "img/shouye_02.png",
+      "img/shouye_01.png",
+      "img/ufo.png",
+      "img/logo.png",
+      "css/shouye.css",
+      "js/rem.js",
+      "img/shouye_03.png",
+      "img/banner_02.png",
+      "teacher.html",
+      "student.html",
+      "wenti.html",
+      "zixun.html",
+      "AboutUs.html"
+    ],
+    "refer": [
+      "teacher.html",
+      "student.html",
+      "wenti.html",
+      "zixun.html",
+      "AboutUs.html"
+    ]
+  },
+  "teacher.html": {
+    "resources": [
+      "img/s2.png",
+      "img/jiantou.png",
+      "img/20170117100230613.png",
+      "img/20170117100044477.png",
+      "img/s3.png",
+      "img/s4.png",
+      "teacher_1.html",
+      "css/teacher.css",
+      "img/20170117100341670.png",
+      "img/s1.png",
+      "img/20170117094821695.png",
+      "img/20170117100439237.png",
+      "shouye.html",
+      "student.html",
+      "css/comment.css",
+      "img/qq.png",
+      "img/shouye6.png",
+      "js/rem.js",
+      "img/banner_02.png"
+    ],
+    "refer": [
+      "teacher_1.html",
+      "shouye.html",
+      "student.html"
+    ]
+  },
+  "teacher_1.html": {
+    "resources": [
+      "css/teacher_1.css",
+      "teacher.html",
+      "student.html",
+      "shouye.html"
+    ],
+    "refer": [
+      "teacher.html",
+      "student.html",
+      "shouye.html"
+    ]
+  },
+  "student.html": {
+    "resources": [
+      "img/20170112064505763.png",
+      "img/20170112072340349.png",
+      "css/student.css",
+      "img/20170112063652908.png",
+      "img/20170112072558735.png",
+      "img/20170112065942818.png",
+      "teacher.html",
+      "zixun.html",
+      "shouye.html"
+    ],
+    "refer": [
+      "teacher.html",
+      "zixun.html",
+      "shouye.html"
+    ]
+  },
+  "zixun_1.html": {
+    "resources": [
+      "img/hot_01.png",
+      "img/wx.png",
+      "img/kj.png",
+      "img/wb.png",
+      "img/sqq.png",
+      "img/tx.png",
+      "css/zixun_1.css",
+      "img/20170117033633864.jpg",
+      "wenti.html",
+      "student.html",
+      "shouye.html"
+    ],
+    "refer": [
+      "wenti.html",
+      "student.html",
+      "shouye.html"
+    ]
+  },
+  "zixun.html": {
+    "resources": [
+      "img/media_line.png",
+      "img/media_icon.png",
+      "img/20170117025727653.jpg",
+      "img/20170117032029524.jpg",
+      "img/20170117030101717.jpg",
+      "zixun_1.html",
+      "img/20170217023531383.png",
+      "css/zixun.css",
+      "img/20170117033628827.jpg",
+      "shouye.html"
+    ],
+    "refer": [
+      "zixun_1.html",
+      "shouye.html"
+    ]
+  },
+  "wenti.html": {
+    "resources": [
+      "css/wenti.css",
+      "zixun.html",
+      "wenti_1.html",
+      "shouye.html",
+      "img/hot_01.png",
+      "img/s2.png",
+      "img/jiantou.png",
+      "css/comment.css",
+      "img/qq.png",
+      "img/s3.png",
+      "img/shouye6.png",
+      "img/s4.png",
+      "img/s1.png",
+      "js/rem.js",
+      "img/banner_02.png"
+    ],
+    "refer": [
+      "zixun.html",
+      "wenti_1.html",
+      "shouye.html"
+    ]
+  },
+  "wenti_1.html": {
+    "resources": [
+      "img/20170307070505972.png",
+      "css/wenti_1.css",
+      "img/20170307070505341.png",
+      "img/20170307070505269.png",
+      "img/20170307070505757.png",
+      "img/20170307070505697.png",
+      "zixun.html",
+      "img/hot_01.png",
+      "img/wx.png",
+      "img/kj.png",
+      "css/comment.css",
+      "img/wb.png",
+      "img/qq.png",
+      "img/shouye6.png",
+      "img/sqq.png",
+      "js/rem.js",
+      "img/jiantou.png",
+      "img/tx.png",
+      "img/banner_02.png",
+      "img/20170307070505283.png",
+      "img/20170307070505676.png",
+      "shouye.html"
+    ],
+    "refer": [
+      "zixun.html",
+      "shouye.html"
+    ]
+  },
+  "AboutUs.html": {
+    "resources": [
+      "img/about_002.png",
+      "img/jiantou.png",
+      "css/AboutUs.css",
+      "img/about_004.png",
+      "img/about_003.png",
+      "img/about_001.png",
+      "teacher.html",
+      "shouye.html",
+      "wenti.html"
+    ],
+    "refer": [
+      "teacher.html",
+      "shouye.html",
+      "wenti.html"
+    ]
+  }
+}

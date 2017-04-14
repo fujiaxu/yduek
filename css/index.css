@@ -1,0 +1,326 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: "苹方","微软雅黑","Helvetica";
+}
+a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: 0.89rem;
+	background-color: #007be3;
+	position: fixed;
+	top: 0;
+	z-index: 66;
+}
+header .box{
+	width: 2.27rem;
+    height: 0.68rem;
+    margin: 0 auto;
+    padding-top: 0.16rem;
+}
+header .box>a{
+	display: block;
+	width: 0.7rem;
+    height: 0.67rem;
+	background: url(../img/logo.png) center center no-repeat;
+	background-size: 0.7rem;
+	float: left;
+}
+header .box>h3{
+	font-size: 0.36rem;
+    color: #fff;
+    line-height: 0.68rem;
+    float: left;
+    margin-left: 0.16rem;
+}
+.banner{
+	width: 100%;
+	height: 4.21rem;
+	background: url(../img/banner_02.png) center center no-repeat;
+	background-size: cover;
+}
+.content{
+	padding: 0.28rem 0.2rem 0;
+    overflow: hidden;
+    background-color: #F5F6FA;
+}
+.content ul>li{
+	width: 1.55rem;
+    height: 1.96rem;
+    float: left;
+    margin-right: 0.3rem;
+    margin-bottom: 0.32rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #000;
+}
+.content ul .li4{
+	margin-right: 0rem;
+}
+.content ul .li8{
+	margin-right: 0rem;
+}
+.content ul>li>a{
+	display: block;
+	width: 100%;
+	height: 1.56rem;
+	border-radius: 0.25rem;
+	background-color: #fff;
+    margin-bottom: 0.16rem;
+    padding-top: 0.25rem;
+    padding-left: 0.25rem;
+    box-sizing: border-box;
+}
+.content ul>li>a div{
+	width: 1.05rem;
+	height: 1.05rem;
+}
+.content ul>li>a>.li_1{
+	background: url(../img/shouye6.png) 0 0 no-repeat;
+	background-size: 2rem;
+}
+.content ul>li>a>.li_2{
+	background: url(../img/shouye6.png) -0.98rem 0 no-repeat;
+	background-size: 2rem;
+}
+.content ul>li>a>.li_3{
+	background: url(../img/shouye6.png) 0.15rem -1.1rem no-repeat;
+	background-size: 2rem;
+}
+.content ul>li>a>.li_4{
+	background: url(../img/ufo.png) no-repeat;
+	background-size: 100%;
+}
+.content ul>li>a>.li_5{
+	background: url(../img/shouye6.png) -0.98rem -1.1rem no-repeat;
+	background-size: 2rem;
+}
+.content ul>li>a>.li_6{
+	background: url(../img/shouye6.png) 0rem -3.3rem no-repeat;
+	background-size: 2rem;
+}
+.content ul>li>a>.li_7{
+	background: url(../img/shouye6.png) 0.1rem -2.2rem no-repeat;
+	background-size: 2rem;
+}
+.content ul>li>a>.li_8{
+	margin-right: 0rem;
+	background: url(../img/shouye6.png) -0.98rem -2.2rem no-repeat;
+	background-size: 2rem;
+}
+.server{
+	width: 100%;
+	background-color: white;
+}
+.server>.title{
+	width: 100%;
+	height: 0.63rem;
+	border-bottom: 1px solid #e8e8e8;
+	text-align: center;
+	line-height: 0.63rem;
+	font-size: 0.24rem;
+	color: #1378ba;
+}
+.server ul.col_1{
+	width: 100%;
+    height: 2.18rem;
+    border-bottom: 1px solid #e8e8e8;
+}
+.server ul.col_1 li{
+	width: 50%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #e8e8e8;
+    padding: 0.38rem 0rem 0.48rem 0.16rem;
+    box-sizing: border-box;
+}
+.server ul.col_1 li:last-child{
+	border-right: 0;
+}
+.server ul.col_1 li .left{
+	width: 1.8rem;
+	height: 100%;
+	float: left;
+}
+.server ul.col_1 li .left h2{
+	font-size: 0.24rem;
+	font-weight: normal;
+	color: black;
+}
+.server ul.col_1 li .left h3{
+	font-size: 0.18rem;
+	font-weight: normal;
+	color: #999;
+}
+.server ul.col_1 li .right{
+	width: 1.5rem;
+	height: 100%;
+	float: left;
+	background: url(../img/shouye6.png) 0 -4.4rem no-repeat;
+	background-size: 2rem;
+}
+.server ul.col_1 li:last-child .right{
+	background: url(../img/shouye6.png) 0 -5.9rem no-repeat;
+	background-size: 2rem;
+}
+.server ul.col_2{
+	width: 100%;
+    height: 1.38rem;
+    border-bottom: 1px solid #e8e8e8;
+}
+.server ul.col_2 li{
+	float: left;
+    width: 33.33%;
+    height: 100%;
+    border-right: 1px solid #e8e8e8;
+    padding: 0.4rem 0 0.38rem 0.2rem;
+    box-sizing: border-box;
+}
+.server ul.col_2 li .left{
+	width: 0.6rem;
+	height: 100%;
+	float: left;
+	background: url(../img/shouye_01.png) center center no-repeat;
+	background-size: cover;
+}
+.server ul.col_2 li.li_2 .left{
+	background: url(../img/shouye_02.png) center center no-repeat;
+	background-size: cover;
+}
+.server ul.col_2 li.li_3 .left{
+	background: url(../img/shouye_03.png) center center no-repeat;
+	background-size: cover;
+}
+.server ul.col_2 li .right{
+	width: 1.5rem;
+    margin-left: 0.1rem;
+    float: left;
+    height: 100%;
+}
+.server ul.col_2 li .right h2{
+	font-size: 0.24rem;
+    color: #000000;
+    font-weight: normal;
+}
+.server ul.col_2 li .right h3{
+	font-size: 0.18rem;
+    color: #999999;
+    font-weight: normal;
+    line-height: 0.3rem;
+}
+.contactBox{
+	width: 100%;
+    height: 0.9rem;
+}
+.contact{
+	width: 100%;
+    height: 0.9rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0rem;
+    box-shadow: 0 0 0.08rem rgba(0,0,0,0.1);
+    z-index: 66;
+}
+.contact-list{
+	width: 100%;
+	height: 100%;
+	background: #e7e7e7;
+}
+.contact a{
+	width: 30%;
+	height: 0.8rem;
+	float: left;
+}
+.contact a div{
+	width: 100%;
+    height: 100%;
+    font-size: 0.24rem;
+    color: #000;
+    text-align: left;
+    line-height: 0.9rem;
+    background: #e7e7e7;
+}
+.contact a div i{
+	width: 0.32rem;
+    height: 0.32rem;
+    float: left;
+    line-height: 0.9rem;
+    margin-top: 0.28rem;
+    margin-left: 0.27rem;
+}
+.contact a div span{
+	float: left;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+}
+.contact a div.part1 i{
+	background: url(../img/qq.png) center center no-repeat;
+	background-size: 100%;
+}
+.contact .phone{
+	width: 40%;
+    height: 0.9rem;
+    position: relative;
+    z-index: 88;
+    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+    margin-top: -0.1rem;
+    position: relative;
+}
+.contact a div.part2{
+	background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 0.15rem #ff8d12;
+}
+.contact a div.part2 i{
+	width: 0.36rem;
+    height: 0.36rem;
+    background: url(../img/shouye6.png) -1.6rem -4.78rem no-repeat;
+    background-size: 2rem;
+    display: inline-block;
+    line-height: 0.9rem;
+    margin-left: 0.7rem;
+}
+.contact a div.part2 span{
+	float: left;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.contact a div.part3 i{
+	width: 0.36rem;
+    height: 0.36rem;
+	background: url(../img/shouye6.png) -1.6rem -5.3rem no-repeat;
+	background-size: 2rem;
+	display: inline-block;
+    line-height: 0.9rem;
+    margin-left: 0.42rem;
+}
+#LRMINIBAR{
+	position: absolute;
+    right: 1.73rem;
+    bottom: 0.48rem;
+    width: auto;
+    height: auto;
+    z-index: 100;
+}
+#LR-BTN{
+	display: block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 31px;
+    background: #00A6F1;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .16);
+    cursor: pointer;
+    text-decoration: none;
+}
